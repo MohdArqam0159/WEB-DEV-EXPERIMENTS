@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #f5f5f5;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;     
+    align-items: center;              
+    flex-direction: row;               
+    border: 3px solid black;
+    padding: 35px;
+    background: white;
+}
+
+.profile-card {
+    width: 300px;
+    height: 250px;
+    border: 3px solid #2a8bff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+p {
+    font-size: 15px;
+    margin: 4px 0;
+}
