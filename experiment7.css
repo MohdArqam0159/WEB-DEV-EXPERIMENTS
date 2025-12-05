@@ -15,7 +15,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Block Example */
 .block-menu a {
   display: block;
   background-color: rgb(32, 131, 236);
@@ -25,7 +24,6 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* Inline Example */
 .inline-menu a {
   display: inline;
   background-color: green;
@@ -35,7 +33,6 @@ h1 {
   margin-right: 5px;
 }
 
-/* Inline-Block Example */
 .inline-block-menu a {
   display: inline-block;
   background-color: rgb(4, 128, 128);
@@ -45,7 +42,6 @@ h1 {
   margin-right: 10px;
 }
 
-/* Float Example */
 .float-menu a {
   float: left;
   background-color: orange;
